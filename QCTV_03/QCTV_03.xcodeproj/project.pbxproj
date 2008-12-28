@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		843188760843C0CC00ADBFC6 /* FrameReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 843188740843C0CC00ADBFC6 /* FrameReader.m */; };
+		843189730843CEFE00ADBFC6 /* FrameCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 843189710843CEFE00ADBFC6 /* FrameCompressor.m */; };
+		8431898E0843D44B00ADBFC6 /* FrameLiveDVExporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8431898D0843D44B00ADBFC6 /* FrameLiveDVExporter.m */; };
+		843189B80843DA0600ADBFC6 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8404C21807C036220032E6A6 /* AppController.m */; };
+		843189BF0843F40500ADBFC6 /* FrameMovieExporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 843189BD0843F40500ADBFC6 /* FrameMovieExporter.m */; };
+		8436335A0846A35600DABC99 /* CompositionParametersView.m in Sources */ = {isa = PBXBuildFile; fileRef = 843633580846A35600DABC99 /* CompositionParametersView.m */; };
+		843633630846A46400DABC99 /* Background.qtz in Resources */ = {isa = PBXBuildFile; fileRef = 8436335D0846A46300DABC99 /* Background.qtz */; };
+		843633640846A46400DABC99 /* Crawler.qtz in Resources */ = {isa = PBXBuildFile; fileRef = 8436335E0846A46400DABC99 /* Crawler.qtz */; };
+		843633650846A46400DABC99 /* Heading.qtz in Resources */ = {isa = PBXBuildFile; fileRef = 8436335F0846A46400DABC99 /* Heading.qtz */; };
+		843633660846A46400DABC99 /* Image.qtz in Resources */ = {isa = PBXBuildFile; fileRef = 843633600846A46400DABC99 /* Image.qtz */; };
+		843633670846A46400DABC99 /* InfoBox.qtz in Resources */ = {isa = PBXBuildFile; fileRef = 843633610846A46400DABC99 /* InfoBox.qtz */; };
+		843633680846A46400DABC99 /* Title.qtz in Resources */ = {isa = PBXBuildFile; fileRef = 843633620846A46400DABC99 /* Title.qtz */; };
+		843634520846DFCD00DABC99 /* RenderParametersView.m in Sources */ = {isa = PBXBuildFile; fileRef = 843634510846DFCD00DABC99 /* RenderParametersView.m */; };
+		843634C90846F5B600DABC99 /* Contents.qtz in Resources */ = {isa = PBXBuildFile; fileRef = 843634C80846F5B600DABC99 /* Contents.qtz */; };
+		8479A2E208332BA8005B6DB0 /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8479A2E108332BA8005B6DB0 /* QuickTime.framework */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		E2A07096067D7C1E00EAF32C /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2A07095067D7C1E00EAF32C /* Quartz.framework */; };
+		E2ED5ACD067D831E0057BE02 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		E2EE043807DAF23B00DD59EA /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2EE043707DAF23B00DD59EA /* OpenGL.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		8404C21707C036220032E6A6 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		8404C21807C036220032E6A6 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+		843188740843C0CC00ADBFC6 /* FrameReader.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = FrameReader.m; sourceTree = "<group>"; };
+		843188750843C0CC00ADBFC6 /* FrameReader.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = FrameReader.h; sourceTree = "<group>"; };
+		843189710843CEFE00ADBFC6 /* FrameCompressor.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = FrameCompressor.m; sourceTree = "<group>"; };
+		843189720843CEFE00ADBFC6 /* FrameCompressor.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = FrameCompressor.h; sourceTree = "<group>"; };
+		8431898C0843D44B00ADBFC6 /* FrameLiveDVExporter.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = FrameLiveDVExporter.h; sourceTree = "<group>"; };
+		8431898D0843D44B00ADBFC6 /* FrameLiveDVExporter.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = FrameLiveDVExporter.m; sourceTree = "<group>"; };
+		843189BD0843F40500ADBFC6 /* FrameMovieExporter.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = FrameMovieExporter.m; sourceTree = "<group>"; };
+		843189BE0843F40500ADBFC6 /* FrameMovieExporter.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = FrameMovieExporter.h; sourceTree = "<group>"; };
+		843633580846A35600DABC99 /* CompositionParametersView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = CompositionParametersView.m; sourceTree = "<group>"; };
+		843633590846A35600DABC99 /* CompositionParametersView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CompositionParametersView.h; sourceTree = "<group>"; };
+		8436335D0846A46300DABC99 /* Background.qtz */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Background.qtz; sourceTree = "<group>"; };
+		8436335E0846A46400DABC99 /* Crawler.qtz */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Crawler.qtz; sourceTree = "<group>"; };
+		8436335F0846A46400DABC99 /* Heading.qtz */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Heading.qtz; sourceTree = "<group>"; };
+		843633600846A46400DABC99 /* Image.qtz */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Image.qtz; sourceTree = "<group>"; };
+		843633610846A46400DABC99 /* InfoBox.qtz */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = InfoBox.qtz; sourceTree = "<group>"; };
+		843633620846A46400DABC99 /* Title.qtz */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Title.qtz; sourceTree = "<group>"; };
+		843634500846DFCD00DABC99 /* RenderParametersView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RenderParametersView.h; sourceTree = "<group>"; };
+		843634510846DFCD00DABC99 /* RenderParametersView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RenderParametersView.m; sourceTree = "<group>"; };
+		843634C80846F5B600DABC99 /* Contents.qtz */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Contents.qtz; sourceTree = "<group>"; };
+		8479A2E108332BA8005B6DB0 /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = /System/Library/Frameworks/QuickTime.framework; sourceTree = "<absolute>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* QuartzComposerTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuartzComposerTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2A07095067D7C1E00EAF32C /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = /System/Library/Frameworks/Quartz.framework; sourceTree = "<absolute>"; };
+		E2EE043707DAF23B00DD59EA /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				E2A07096067D7C1E00EAF32C /* Quartz.framework in Frameworks */,
+				E2EE043807DAF23B00DD59EA /* OpenGL.framework in Frameworks */,
+				8479A2E208332BA8005B6DB0 /* QuickTime.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* QuartzComposerTV.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* QuartzComposerPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Prefix.pch */,
+				E2A07092067D7BEB00EAF32C /* Application */,
+				843634CA0846F6F800DABC99 /* Parameters UI */,
+				84318AAE0843FF4200ADBFC6 /* Frames Handling */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = QuartzComposerPlayer;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8436335C0846A46300DABC99 /* Compositions */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				E2A07095067D7C1E00EAF32C /* Quartz.framework */,
+				E2EE043707DAF23B00DD59EA /* OpenGL.framework */,
+				8479A2E108332BA8005B6DB0 /* QuickTime.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84318AAE0843FF4200ADBFC6 /* Frames Handling */ = {
+			isa = PBXGroup;
+			children = (
+				843188750843C0CC00ADBFC6 /* FrameReader.h */,
+				843188740843C0CC00ADBFC6 /* FrameReader.m */,
+				843189720843CEFE00ADBFC6 /* FrameCompressor.h */,
+				843189710843CEFE00ADBFC6 /* FrameCompressor.m */,
+				8431898C0843D44B00ADBFC6 /* FrameLiveDVExporter.h */,
+				8431898D0843D44B00ADBFC6 /* FrameLiveDVExporter.m */,
+				843189BE0843F40500ADBFC6 /* FrameMovieExporter.h */,
+				843189BD0843F40500ADBFC6 /* FrameMovieExporter.m */,
+			);
+			name = "Frames Handling";
+			sourceTree = "<group>";
+		};
+		8436335C0846A46300DABC99 /* Compositions */ = {
+			isa = PBXGroup;
+			children = (
+				8436335D0846A46300DABC99 /* Background.qtz */,
+				843634C80846F5B600DABC99 /* Contents.qtz */,
+				8436335E0846A46400DABC99 /* Crawler.qtz */,
+				8436335F0846A46400DABC99 /* Heading.qtz */,
+				843633600846A46400DABC99 /* Image.qtz */,
+				843633610846A46400DABC99 /* InfoBox.qtz */,
+				843633620846A46400DABC99 /* Title.qtz */,
+			);
+			path = Compositions;
+			sourceTree = "<group>";
+		};
+		843634CA0846F6F800DABC99 /* Parameters UI */ = {
+			isa = PBXGroup;
+			children = (
+				843634500846DFCD00DABC99 /* RenderParametersView.h */,
+				843634510846DFCD00DABC99 /* RenderParametersView.m */,
+				843633590846A35600DABC99 /* CompositionParametersView.h */,
+				843633580846A35600DABC99 /* CompositionParametersView.m */,
+			);
+			name = "Parameters UI";
+			sourceTree = "<group>";
+		};
+		E2A07092067D7BEB00EAF32C /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				8404C21707C036220032E6A6 /* AppController.h */,
+				8404C21807C036220032E6A6 /* AppController.m */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* QuartzComposerTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC8308D60F0840A30006EE50 /* Build configuration list for PBXNativeTarget "QuartzComposerTV" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuartzComposerTV;
+			productInstallPath = "$(HOME)/Applications";
+			productName = QuartzComposerPlayer;
+			productReference = 8D1107320486CEB800E47090 /* QuartzComposerTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = FC8308D50F0840A30006EE50 /* Build configuration list for PBXProject "QCTV_03" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* QuartzComposerPlayer */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* QuartzComposerTV */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2ED5ACD067D831E0057BE02 /* MainMenu.nib in Resources */,
+				843633630846A46400DABC99 /* Background.qtz in Resources */,
+				843633640846A46400DABC99 /* Crawler.qtz in Resources */,
+				843633650846A46400DABC99 /* Heading.qtz in Resources */,
+				843633660846A46400DABC99 /* Image.qtz in Resources */,
+				843633670846A46400DABC99 /* InfoBox.qtz in Resources */,
+				843633680846A46400DABC99 /* Title.qtz in Resources */,
+				843634C90846F5B600DABC99 /* Contents.qtz in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				843188760843C0CC00ADBFC6 /* FrameReader.m in Sources */,
+				843189730843CEFE00ADBFC6 /* FrameCompressor.m in Sources */,
+				8431898E0843D44B00ADBFC6 /* FrameLiveDVExporter.m in Sources */,
+				843189B80843DA0600ADBFC6 /* AppController.m in Sources */,
+				843189BF0843F40500ADBFC6 /* FrameMovieExporter.m in Sources */,
+				8436335A0846A35600DABC99 /* CompositionParametersView.m in Sources */,
+				843634520846DFCD00DABC99 /* RenderParametersView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC8308CF0F0840A30006EE50 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Development;
+		};
+		FC8308D00F0840A30006EE50 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Deployment;
+		};
+		FC8308D10F0840A30006EE50 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Default;
+		};
+		FC8308D20F0840A30006EE50 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = QuartzComposerTV;
+				SKIP_INSTALL = YES;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		FC8308D30F0840A30006EE50 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PREFIX_HEADER = Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = QuartzComposerTV;
+				SKIP_INSTALL = YES;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+			};
+			name = Deployment;
+		};
+		FC8308D40F0840A30006EE50 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PREFIX_HEADER = Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = QuartzComposerTV;
+				SKIP_INSTALL = YES;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC8308D50F0840A30006EE50 /* Build configuration list for PBXProject "QCTV_03" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC8308CF0F0840A30006EE50 /* Development */,
+				FC8308D00F0840A30006EE50 /* Deployment */,
+				FC8308D10F0840A30006EE50 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		FC8308D60F0840A30006EE50 /* Build configuration list for PBXNativeTarget "QuartzComposerTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC8308D20F0840A30006EE50 /* Development */,
+				FC8308D30F0840A30006EE50 /* Deployment */,
+				FC8308D40F0840A30006EE50 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
